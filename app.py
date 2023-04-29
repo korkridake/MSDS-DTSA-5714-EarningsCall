@@ -22,4 +22,4 @@ def getSummary():
     return render_template('summary.html',result=result)
 
 if __name__ =="__main__":
-    app.run(debug=True,port=8000)
+    app.run()
