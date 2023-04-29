@@ -1,0 +1,22 @@
+name: Deploy to Azure App Service
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configure Azure
+        uses: azure/actions/setup-azure@v1
+        with:
+          azure-cli-version: 2.30.0
+          subscription-id: ${{ secrets.71c3b73f-4fed-453e-a3bf-31f627f5054d }}
+          app-service-name: ${{ secrets.msds-dtsa-5714-earningscall }}
+
+      - name: Build and deploy
+        run: |
+          az webapp up --build
