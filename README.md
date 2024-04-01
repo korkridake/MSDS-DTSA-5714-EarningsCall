@@ -26,3 +26,77 @@ This data product is, for one, AI-driven using natural language processing (NLP)
 * Production monitoring instrumenting - Python's built-in logging module
 * Event collaboration messaging - Apache Kafka
 * Continuous Delivery - GitHub Actions, Heroku Pipeline
+
+## Tree Directory
+
+```
+MSDS-DTSA-5714-EarningsCall/
+├── .git/
+│   ├── branches/
+│   ├── config
+│   ├── description
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── hooks/
+│   ├── index
+│   ├── info/
+│   ├── lfs/
+│   ├── logs/
+│   ├── objects/
+│   ├── packed-refs
+│   └── refs/
+├── .github/
+│   └── workflows/
+├── .venv/
+│   ├── .gitignore
+│   ├── bin/
+│   ├── etc/
+│   ├── include/
+│   ├── lib/
+│   ├── lib64/
+│   ├── pyvenv.cfg
+│   └── share/
+├── app.py
+├── data/
+│   └── META-Q1-2023-Earnings-Call-Transcript.pdf
+├── data-analyser-bert-summarization.ipynb
+├── data-analyser-bert-summarization.py
+├── data-collection-seekingalpha-pymongo.ipynb
+├── data-collection-seekingalpha-pymongo.py
+├── Dockerfile
+├── docs/
+│   ├── week-1.md
+│   ├── week-2.md
+│   ├── week-3.md
+│   ├── week-4.md
+│   └── week-5.md
+├── img/
+│   ├── 127-0-0-1-5000-health.png
+│   ├── 127-0-0-1-5000-metrics.png
+│   ├── Data-Cloud-MongoDB-Cloud.png
+│   ├── docker-illustration-2.png
+│   ├── docker-illustration.png
+│   ├── maxresdefault.jpg
+│   ├── seekingalpha-logo.png
+│   ├── Text-Summarizer-App-using-SBert-Input.png
+│   ├── Text-Summarizer-App-using-SBert-Output.png
+│   └── TFJoS071SOCy9xffijzKHA_56e96935f1694d079ced23932dbb92a1_Earning-Call-Analytics-Whiteboard-Exercise.png
+├── models/
+├── notebooks/
+│   └── 00-tree-directory.ipynb
+├── Procfile
+├── README.md
+├── requirements.txt
+├── templates/
+│   ├── index.html
+│   └── summary.html
+└── tests/
+    ├── __init__.py
+    ├── beta_test.py
+    ├── test_adv.py
+    ├── test_alpha.py
+    ├── test_bmi.py
+    ├── test_fixture1.py
+    ├── test_fixture2.py
+    └── test_fixture3.py
+```
